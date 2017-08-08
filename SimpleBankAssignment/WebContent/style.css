@@ -1,0 +1,7 @@
+@charset "ISO-8859-1";
+
+
+#demo {
+-webkit-box-shadow: 24px -12px 15px 8px #000000; 
+box-shadow: 24px -12px 15px 8px #000000;
+}
