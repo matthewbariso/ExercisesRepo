@@ -1,5 +1,7 @@
 package com.oocl.training.sample;
 
+import static org.junit.Assert.assertEquals;
+
 import org.junit.Before;
 import org.junit.Test;
 
@@ -15,8 +17,8 @@ public class StringHelperTest {
 	}
 	
 	@Test
-	public void testTruncateAInFirst2Position() {
-		
+	public void testTruncateAInFirst2Position_AinFirst2Positions() {
+		assertEquals("CD", helper.truncateAInFirst2Position("AACD"));
 	}
 
 	@Test
