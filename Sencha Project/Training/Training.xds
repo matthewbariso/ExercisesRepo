@@ -1,0 +1,38 @@
+{
+    "name": "Training",
+    "settings": {
+        "cmd": {
+            "license": "commercial"
+        },
+        "canvasControls": {
+            "viewportSize": {
+                "name": "Auto Expand",
+                "builtIn": true,
+                "height": null,
+                "width": null
+            }
+        },
+        "urlPrefix": "",
+        "exportPath": "D:/Sencha Project/Publish"
+    },
+    "xdsVersion": "3.0.2",
+    "xdsBuild": 1375,
+    "schemaVersion": 1,
+    "upgradeVersion": 300000000004,
+    "framework": "ext42",
+    "viewOrderMap": {
+        "view": [
+            "0421763d-0656-4808-b30a-377623b814d0"
+        ],
+        "store": [],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "45df4108-bb50-4488-bb14-2bafcf4feeeb",
+            "c4b82ceb-c939-4255-8ac6-f6f745064ec6"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

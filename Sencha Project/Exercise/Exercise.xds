@@ -1,0 +1,43 @@
+{
+    "name": "Exercise",
+    "settings": {
+        "cmd": {
+            "license": "commercial"
+        },
+        "canvasControls": {
+            "viewportSize": {
+                "name": "Auto Expand",
+                "builtIn": true,
+                "height": null,
+                "width": null
+            }
+        },
+        "urlPrefix": "",
+        "exportPath": "D:/Sencha Project/Publish"
+    },
+    "xdsVersion": "3.0.4",
+    "xdsBuild": 1386,
+    "schemaVersion": 1,
+    "upgradeVersion": 300000000004,
+    "framework": "ext42",
+    "viewOrderMap": {
+        "view": [
+            "64e848de-8336-4e35-85de-ada84702d6d8",
+            "282037c5-b4d4-4fd6-8e59-6b02f1e8262a"
+        ],
+        "store": [
+            "4060bf3a-d685-4e08-b29d-85ca2795770e"
+        ],
+        "controller": [],
+        "model": [
+            "073cbf21-8d15-448b-91b7-1f7e46b3cc58"
+        ],
+        "resource": [
+            "486efe65-da00-4a75-8c01-a38009dcbc53",
+            "b7604f21-775f-414a-81bb-0677d3c00283"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

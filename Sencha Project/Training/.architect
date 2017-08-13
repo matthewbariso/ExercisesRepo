@@ -1,0 +1,63 @@
+{
+    "expandedState": {
+        "data": true,
+        "model": true,
+        "component": true,
+        "controller": true,
+        "resource": true,
+        "0421763d-0656-4808-b30a-377623b814d0": {
+            "id": "0421763d-0656-4808-b30a-377623b814d0",
+            "cn": [
+                {
+                    "id": "12b28c4f-e3d9-4abf-81b6-d4d9ad224c63",
+                    "cn": [
+                        {
+                            "id": "7ef3051c-3804-442b-b21b-c185f78646b5"
+                        },
+                        {
+                            "id": "91dc6978-ad5f-4f68-8c28-cffe29a0c6af",
+                            "cn": [
+                                {
+                                    "id": "8d176da7-93af-4cba-8a8e-88555abab539"
+                                },
+                                {
+                                    "id": "c4765858-87bc-4c04-854e-7c3f90ee6e60",
+                                    "cn": [
+                                        {
+                                            "id": "b5db3d3d-a033-4023-8383-0d8ca41da890"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "45df4108-bb50-4488-bb14-2bafcf4feeeb": {
+            "id": "45df4108-bb50-4488-bb14-2bafcf4feeeb"
+        },
+        "c4b82ceb-c939-4255-8ac6-f6f745064ec6": {
+            "id": "c4b82ceb-c939-4255-8ac6-f6f745064ec6"
+        }
+    },
+    "tabState": {
+        "openTabs": [
+            "0421763d-0656-4808-b30a-377623b814d0"
+        ]
+    },
+    "canvasState": {
+        "topInstance": null
+    },
+    "inspectorState": {
+        "topInstance": "0421763d-0656-4808-b30a-377623b814d0",
+        "selectedInstance": "b5db3d3d-a033-4023-8383-0d8ca41da890"
+    },
+    "codeState": {
+        "topInstance": "0421763d-0656-4808-b30a-377623b814d0"
+    },
+    "editMode": "code",
+    "userSettings": {
+        "no-cmd": false
+    }
+}

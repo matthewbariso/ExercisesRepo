@@ -1,0 +1,15 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "name": "Training",
+        "views": [
+            "com.oocl.ir4.training.TrainingViewPort"
+        ]
+    },
+    "designerId": "application"
+}

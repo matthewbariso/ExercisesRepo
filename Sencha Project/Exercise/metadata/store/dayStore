@@ -1,0 +1,42 @@
+{
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "dayStore",
+        "model": "day",
+        "storeId": "dayStore"
+    },
+    "designerId": "4060bf3a-d685-4e08-b29d-85ca2795770e",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "url": "/wls_prs_gsp/secured/training/day3"
+            },
+            "designerId": "accdd9a9-66e2-4c5f-a11c-0dfddf41f464",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "root": "data"
+                    },
+                    "designerId": "f0eb07a1-c37b-45d2-b0d7-7545ac57facd"
+                }
+            ]
+        }
+    ]
+}

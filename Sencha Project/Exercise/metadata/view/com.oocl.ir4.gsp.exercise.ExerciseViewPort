@@ -1,0 +1,346 @@
+{
+    "type": "Ext.container.Viewport",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "designer|userClassName": "com.oocl.ir4.gsp.exercise.ExerciseViewPort"
+    },
+    "designerId": "64e848de-8336-4e35-85de-ada84702d6d8",
+    "cn": [
+        {
+            "type": "Ext.form.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "bodyPadding": 10,
+                "height": 400,
+                "title": "My Form"
+            },
+            "designerId": "86ea5b20-23fd-41c5-95d5-c3d5e70af085",
+            "cn": [
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fieldLabel": "Name",
+                        "layout|anchor": "100%"
+                    },
+                    "designerId": "e5470bbf-ae11-45cd-94d9-370f2d5f4f2b"
+                },
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fieldLabel": "Birthday",
+                        "layout|anchor": "100%"
+                    },
+                    "designerId": "31e11475-0077-4de1-a067-9dbfd6b99764"
+                },
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout": "column"
+                    },
+                    "designerId": "64c3dd3f-bc28-49cd-be94-1318c9c9c589",
+                    "cn": [
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "designerId": "7ea04de8-4d3a-4b22-adf8-7059ac5e11c5",
+                            "cn": [
+                                {
+                                    "type": "Ext.form.field.Text",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fieldLabel": "Telephone",
+                                        "id": "telephoneTextField"
+                                    },
+                                    "designerId": "e39989f6-42e5-4e81-b700-38c55d0ad825",
+                                    "cn": [
+                                        {
+                                            "type": "basiceventbinding",
+                                            "reference": {
+                                                "name": "listeners",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "fn": "onTelephoneTextFieldChange",
+                                                "implHandler": [
+                                                    "var fax = null;\r",
+                                                    "fax = Ext.getCmp(\"faxTextField\");\r",
+                                                    "fax.disable();"
+                                                ],
+                                                "name": "change",
+                                                "scope": "me"
+                                            },
+                                            "designerId": "26c22bdf-a5d3-4208-a5ca-608e54bcfb68"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Ext.form.field.Text",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fieldLabel": "Fax",
+                                        "id": "faxTextField"
+                                    },
+                                    "designerId": "35c37e7b-dfb9-463a-9778-25774b8eee1c"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "designerId": "0e5f52af-a8e8-438f-b360-7f4388067501",
+                            "cn": [
+                                {
+                                    "type": "Ext.form.field.TextArea",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fieldLabel": "Address"
+                                    },
+                                    "designerId": "a27dbe36-39ee-461d-b8ac-648b0a1dd46d"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.form.RadioGroup",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fieldLabel": "Gender",
+                        "width": 400
+                    },
+                    "designerId": "8783c557-f252-4ba6-9c45-3d7d03d3be71",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.Radio",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "boxLabel": "Male",
+                                "fieldLabel": null
+                            },
+                            "designerId": "85fd8fa5-f473-464f-8b24-a200cd91fc54"
+                        },
+                        {
+                            "type": "Ext.form.field.Radio",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "boxLabel": "Female",
+                                "fieldLabel": null
+                            },
+                            "designerId": "df5b43ee-fac5-45e1-a407-fce942fa1dbf"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.form.field.ComboBox",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "displayField": "Name",
+                        "fieldLabel": "Label",
+                        "layout|anchor": "100%",
+                        "store": "dayStore",
+                        "valueField": "Description"
+                    },
+                    "designerId": "fb4af920-d70c-4b54-a8d3-507c69b31e94"
+                },
+                {
+                    "type": "Ext.toolbar.Toolbar",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|pack": "end",
+                        "dock": null
+                    },
+                    "designerId": "5d26b2fb-9153-4ee1-b6ff-6bd37d9d47b1",
+                    "cn": [
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "text": "MyButton",
+                                "tooltip": [
+                                    "\"Please Click\""
+                                ],
+                                "tooltipType": "title"
+                            },
+                            "designerId": "5bf3a62f-fc30-4510-855e-775a824b22ed",
+                            "cn": [
+                                {
+                                    "type": "basiceventbinding",
+                                    "reference": {
+                                        "name": "listeners",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fn": "onButtonClick",
+                                        "implHandler": [
+                                            "Ext.Ajax.request({\r",
+                                            "    url: '/wls_prs_gsp/secured/training/testNoView',\r",
+                                            "    method: 'post',\r",
+                                            "    success: function(response, opts){\r",
+                                            "        var obj = Ext.decode(response.responseText);\r",
+                                            "        console.dir(obj);\r",
+                                            "    },\r",
+                                            "    failure: function(response, opts){\r",
+                                            "        console.log('server-side failure with status code ' + response.status);\r",
+                                            "    }\r",
+                                            "});"
+                                        ],
+                                        "name": "click",
+                                        "scope": "me"
+                                    },
+                                    "designerId": "6e4577dd-31f9-406b-b9c0-a3263b1b10ec"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.grid.Panel",
+                    "reference": {
+                        "name": "dockedItems",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dock": "bottom",
+                        "title": "My Grid Panel"
+                    },
+                    "designerId": "d2dd6674-5fe8-4b81-a30e-e9430ce13998",
+                    "cn": [
+                        {
+                            "type": "Ext.grid.column.Column",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "dataIndex": "string",
+                                "text": "String"
+                            },
+                            "designerId": "2daaaa8f-3517-4883-92d8-ad108a572b64"
+                        },
+                        {
+                            "type": "Ext.grid.column.Number",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "dataIndex": "number",
+                                "text": "Number"
+                            },
+                            "designerId": "2699f256-b130-4e26-a414-125dfcedba48"
+                        },
+                        {
+                            "type": "Ext.grid.column.Date",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "dataIndex": "date",
+                                "text": "Date"
+                            },
+                            "designerId": "10c71840-f761-480f-8bb1-2d7701f1e3ae"
+                        },
+                        {
+                            "type": "Ext.grid.column.Boolean",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "dataIndex": "bool",
+                                "text": "Boolean"
+                            },
+                            "designerId": "a0fbc4c0-9f74-4404-b6c6-05e0a779f691"
+                        },
+                        {
+                            "type": "Ext.grid.View",
+                            "reference": {
+                                "name": "viewConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "designerId": "cf647f5f-c909-4351-936c-448a2bd1fa19"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

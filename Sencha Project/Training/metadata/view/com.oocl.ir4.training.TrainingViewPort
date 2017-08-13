@@ -1,0 +1,115 @@
+{
+    "type": "Ext.container.Viewport",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "designer|userClassName": "com.oocl.ir4.training.TrainingViewPort",
+        "layout": "border"
+    },
+    "designerId": "0421763d-0656-4808-b30a-377623b814d0",
+    "cn": [
+        {
+            "type": "Ext.form.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "bodyPadding": 10,
+                "height": 150,
+                "layout|region": "north",
+                "title": "Find Facility"
+            },
+            "designerId": "12b28c4f-e3d9-4abf-81b6-d4d9ad224c63",
+            "cn": [
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|displayName": null,
+                        "fieldLabel": "Facility Code",
+                        "id": "facilityCode",
+                        "itemId": "facilityCode",
+                        "layout|anchor": "100%"
+                    },
+                    "designerId": "7ef3051c-3804-442b-b21b-c185f78646b5"
+                },
+                {
+                    "type": "Ext.toolbar.Toolbar",
+                    "reference": {
+                        "name": "dockedItems",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dock": "bottom"
+                    },
+                    "designerId": "91dc6978-ad5f-4f68-8c28-cffe29a0c6af",
+                    "cn": [
+                        {
+                            "type": "Ext.toolbar.Fill",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null
+                            },
+                            "designerId": "8d176da7-93af-4cba-8a8e-88555abab539"
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "itemId": "codeFcil",
+                                "layout|flex": null,
+                                "text": "Search"
+                            },
+                            "designerId": "c4765858-87bc-4c04-854e-7c3f90ee6e60",
+                            "cn": [
+                                {
+                                    "type": "basiceventbinding",
+                                    "reference": {
+                                        "name": "listeners",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fn": "onButtonClick",
+                                        "implHandler": [
+                                            "var facilityCode = null;\r",
+                                            "facilityCode = Ext.getCmp(\"facilityCode\");\r",
+                                            "console.log(\"Facility Code \"  + facilityCode);\r",
+                                            "console.log(\"Facility Code \"  , facilityCode);\r",
+                                            "\r",
+                                            "var codeFacil = null;\r",
+                                            "codeFacil = Ext.ComponentQuery.query(\"[itemId='codeFacil'']\");\r",
+                                            "console.log(\"Facility Code by Component Query\", codeFacil)"
+                                        ],
+                                        "name": "click",
+                                        "scope": "me"
+                                    },
+                                    "designerId": "b5db3d3d-a033-4023-8383-0d8ca41da890"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
