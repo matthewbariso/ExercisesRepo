@@ -12,18 +12,18 @@
                 "width": null
             }
         },
-        "urlPrefix": "",
-        "exportPath": "D:/Sencha Project/Publish"
+        "urlPrefix": "http://localhost:1841",
+        "exportPath": "D:/Sencha Project/Publish",
+        "projectHasEnabledWebServer": true
     },
-    "xdsVersion": "3.0.4",
-    "xdsBuild": 1386,
+    "xdsVersion": "3.1.0",
+    "xdsBuild": 1943,
     "schemaVersion": 1,
-    "upgradeVersion": 300000000004,
+    "upgradeVersion": 300000000007,
     "framework": "ext42",
     "viewOrderMap": {
         "view": [
-            "64e848de-8336-4e35-85de-ada84702d6d8",
-            "282037c5-b4d4-4fd6-8e59-6b02f1e8262a"
+            "64e848de-8336-4e35-85de-ada84702d6d8"
         ],
         "store": [
             "4060bf3a-d685-4e08-b29d-85ca2795770e"

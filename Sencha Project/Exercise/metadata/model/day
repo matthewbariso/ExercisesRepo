@@ -21,6 +21,7 @@
                 "mapping": "name",
                 "name": "Name"
             },
+            "name": "MyField",
             "designerId": "fbd53a01-6ae7-4f20-a8d7-aa8222668825"
         },
         {
@@ -34,6 +35,7 @@
                 "mapping": "description",
                 "name": "Description"
             },
+            "name": "MyField1",
             "designerId": "3988ceea-50b1-4406-a517-5de252965333"
         }
     ]

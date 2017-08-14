@@ -14,9 +14,9 @@
             "dayStore"
         ],
         "views": [
-            "com.oocl.ir4.gsp.exercise.ExerciseViewPort",
-            "MyViewport"
+            "com.oocl.barisja2.hw.ExerciseViewPort"
         ]
     },
+    "name": "Application",
     "designerId": "application"
 }

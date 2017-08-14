@@ -22,6 +22,7 @@
             "userConfig": {
                 "url": "/wls_prs_gsp/secured/training/day3"
             },
+            "name": "MyAjaxProxy",
             "designerId": "accdd9a9-66e2-4c5f-a11c-0dfddf41f464",
             "cn": [
                 {
@@ -34,6 +35,7 @@
                     "userConfig": {
                         "root": "data"
                     },
+                    "name": "MyJsonReader",
                     "designerId": "f0eb07a1-c37b-45d2-b0d7-7545ac57facd"
                 }
             ]
