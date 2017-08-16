@@ -9,9 +9,10 @@
 
 
 
-	<bean id="Shape" class="com.oocl.barisja2.sw1.HelloSpringTest">
-		<property name="message" value="This is Triangle"></property>
-		<property name="message" value="This is Square"></property>
+	<bean id="employee" class="com.oocl.barisja2.sw4.Employee">
+		<property name="emp_id" value="12345"></property>
+		<property name="name" value="Janiel"></property>
+		<property name="role" value="Programmer"></property>
 	</bean>
 
 
