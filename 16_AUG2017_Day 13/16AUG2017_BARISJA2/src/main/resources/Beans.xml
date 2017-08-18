@@ -9,7 +9,7 @@
 
 
 
-	<bean id="helloSpring" class="com.oocl.barisja2.sw1.HelloSpringTest">
+	<bean id="helloSpring" class="com.oocl.barisja2.sample.HelloSpringTest">
 		<property name="message" value="Hello World"></property>
 	</bean>
 
