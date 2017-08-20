@@ -1,5 +1,3 @@
-01
-100
 brown
 dog
 fox
